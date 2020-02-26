@@ -41,6 +41,7 @@
 .row {
   display: flex;
   flex-wrap: wrap;
+  height: 1080px
 }
 
 /* Sidebar/left column */
@@ -55,7 +56,7 @@
   flex: 90%;
   text-align: left; 
   background-color: white;
-  padding: 500px; 
+
 
 
 
