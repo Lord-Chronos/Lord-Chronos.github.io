@@ -1,5 +1,11 @@
-html{
+body{
   margin: 0;
+  padding:0;
+}
+
+/* Ensure proper sizing */
+* {
+  box-sizing: border-box;
 }
 .header {
   padding: 20px;
@@ -35,10 +41,6 @@ html{
   color: black;
 }
 
-/* Ensure proper sizing */
-* {
-  box-sizing: border-box;
-}
 
 /* Column container */
 .row {
@@ -59,10 +61,7 @@ html{
   flex: 90%;
   text-align: left; 
   background-color: white;
-
-
-
-
+}
 .footer {
   padding: 10px; 
   text-align: center; 
