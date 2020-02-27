@@ -3,8 +3,8 @@ body{
   margin: 0;
   padding:0;
   font-family: 'Roboto Slab' ;
+  /* border-radius:50%; */
 }
-
 /* Ensure proper sizing */
 * {
   box-sizing: border-box;
@@ -47,6 +47,7 @@ body{
 /* Column container */
 .row {
   display: flex;
+  flex-direction: row-reverse;
   flex-wrap: wrap;
   height: 1080px
 }
