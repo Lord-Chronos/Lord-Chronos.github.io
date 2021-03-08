@@ -86,7 +86,7 @@ body {
 }
 
 a:active, a:focus, a:hover {
-  color: #994bc9;
+  color: #994bc9!important;
 }
 
 .btn-primary {
