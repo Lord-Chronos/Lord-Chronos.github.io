@@ -102,3 +102,14 @@ a:active, a:focus, a:hover {
   background-color: #23272a!important;
 }
 
+#mainNav .navbar-nav li.nav-item a.nav-link.active {
+  color: #18bc9c;
+}
+
+@media (min-width:992px) {
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+    color: #fff;
+    background: #994bc9;
+  }
+}
+
