@@ -17,3 +17,13 @@ hr.star-light:after {
   background-color: rgb(116,24,188);
 }
 
+.btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 .2rem rgba(126,24,188,.25);
+}
+
+.btn-outline-light {
+  color: #000000;
+  border-color: #f8f9fa;
+}
+

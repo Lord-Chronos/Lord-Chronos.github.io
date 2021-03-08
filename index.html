@@ -18,7 +18,7 @@
         <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">Joshua</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler text-white bg-primary navbar-toggler-right text-uppercase rounded" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">projects</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
                 </ul>
@@ -91,7 +91,7 @@
             <hr class="star-dark mb-5">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                    <form id="contactForm" name="sentMessage" novalidate="novalidate" data-bss-recipient="8915d50cf1bba2e71fa84a19f7b7e68d" data-bss-subject="Website Form">
                         <div class="control-group">
                             <div class="form-group floating-label-form-group controls mb-0 pb-2"><label>Name</label><input class="form-control" type="text" id="name" required="" placeholder="Name"><small class="form-text text-danger help-block"></small></div>
                         </div>
@@ -148,8 +148,16 @@
                             <div class="col-lg-8 mx-auto">
                                 <h2 class="text-uppercase text-secondary mb-0">Space sheep</h2>
                                 <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/portfolio/newsheep.png">
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                <div class="row">
+                                    <div class="col-7">
+                                        <p class="text-center mb-5">This is a top down shooter game I created for my A-Level coursework and was the first ever major programming project. It utilises the pygame module to render the graphics for the game.</p>
+                                    </div>
+                                    <div class="col d-xl-flex align-items-center justify-content-xl-end">
+                                        <p class="text-left d-xl-flex justify-content-center align-items-center justify-content-xl-start align-items-xl-start mb-5">Language: Python 3<br>Created : 2018</p>
+                                    </div>
+                                </div>
                             </div>
+                            <div class="col-lg-8 mx-auto"><a class="btn btn-outline-light btn-xl" role="button" href="https://github.com/Lord-Chronos/SpaceSheep"><i class="fa fa-download mr-2"></i><span>Download</span></a></div>
                         </div>
                     </div>
                 </div>
@@ -254,6 +262,7 @@
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="assets/js/freelancer.js"></script>
 </body>
