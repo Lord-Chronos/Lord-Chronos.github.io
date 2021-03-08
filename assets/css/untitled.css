@@ -94,3 +94,11 @@ a:active, a:focus, a:hover {
   border-color: #7e18bc;
 }
 
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: var(--purple);
+}
+
+.bg-secondary {
+  background-color: #23272a!important;
+}
+
