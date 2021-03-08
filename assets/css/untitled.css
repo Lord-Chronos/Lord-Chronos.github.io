@@ -1,5 +1,5 @@
 a {
-  color: #7e18bc;
+  /*color: #7e18bc;*/
 }
 
 .bg-primary {
@@ -111,5 +111,17 @@ a:active, a:focus, a:hover {
     color: #fff;
     background: #994bc9;
   }
+}
+
+a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-primary:hover {
+  background-color: #994bc9!important;
+}
+
+.contact img {
+  width: 50%;
+}
+
+.row.flex-grow-1 img {
+  width: 40%;
 }
 
