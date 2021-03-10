@@ -38,25 +38,25 @@
             <h2 class="text-uppercase text-center text-secondary">projects</h2>
             <hr class="star-dark mb-5">
             <div class="row">
-                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-1">
-                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
-                            <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i class="fa fa-search-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/newsheep.png">
-                    </a></div>
                 <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-2">
                         <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
                             <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i class="fa fa-search-plus fa-3x"></i></div>
                         </div><img class="img-fluid" src="assets/img/portfolio/bell2.png">
                     </a></div>
+                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-4">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i class="fa fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/labyrinth.png">
+                    </a></div>
+                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-1">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i class="fa fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/newsheep.png">
+                    </a></div>
                 <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-3">
                         <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
                             <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i class="fa fa-search-plus fa-3x"></i></div>
                         </div><img class="img-fluid" src="assets/img/portfolio/hash.png">
-                    </a></div>
-                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-4">
-                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
-                            <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i class="fa fa-search-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/game.png">
                     </a></div>
                 <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-5">
                         <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
@@ -170,7 +170,7 @@
                                         <p class="text-center mb-5">This is a top down shooter game I created for my A-Level coursework and was the first ever major programming project. It utilises the pygame module to render the graphics for the game.</p>
                                     </div>
                                     <div class="col d-xl-flex align-items-center justify-content-xl-end">
-                                        <p class="text-left d-xl-flex justify-content-center align-items-center justify-content-xl-start align-items-xl-start mb-5">Language: Python 3<br>Created : 2018</p>
+                                        <p class="text-left d-xl-flex justify-content-center align-items-center justify-content-xl-start align-items-xl-start mb-5">Language: Python 3<br>Libraries: Pygame<br>Created: 2018</p>
                                     </div>
                                 </div>
                             </div>
@@ -193,10 +193,10 @@
                                 <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/portfolio/bell2.png">
                                 <div class="row">
                                     <div class="col-7">
-                                        <p class="text-center mb-5">A house management bot for discord. The main functionality is a notifying a discord server when the doorbell is rung through wiring the doorbell speaker to a raspberry pi&nbsp;</p>
+                                        <p class="text-center mb-5">A house management bot for discord. The main functionality is a notifying a discord server when the doorbell is rung through wiring the doorbell speaker to a raspberry pi.</p>
                                     </div>
                                     <div class="col d-xl-flex align-items-center justify-content-xl-end">
-                                        <p class="text-left d-xl-flex justify-content-center align-items-center justify-content-xl-start align-items-xl-start mb-5">Language: Python 3<br>Created : 2021</p>
+                                        <p class="text-left d-xl-flex justify-content-center align-items-center justify-content-xl-start align-items-xl-start mb-5">Language: Python 3<br>Created: 2021</p>
                                     </div>
                                 </div>
                             </div>
@@ -211,38 +211,44 @@
     <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-3">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
-                <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
-                <div class="modal-body">
+                <div class="modal-body" style="background: #2c2f33;">
                     <div class="container text-center">
                         <div class="row">
                             <div class="col-lg-8 mx-auto">
-                                <h2 class="text-uppercase text-secondary mb-0">Project Name</h2>
-                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/portfolio/circus.png">
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                <h2 class="text-uppercase text-secondary mb-0">RPI Door bell bot</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/portfolio/labyrinth.png">
+                                <div class="row">
+                                    <div class="col-7">
+                                        <p class="text-center mb-5">This is a Labyrinth style game created for University Coursework. It was developed in Java 8 with the graphics of the game utilising JavaFX. Unfortunately, the game will not be available to download until August 2021.<br></p>
+                                    </div>
+                                    <div class="col d-xl-flex align-items-center justify-content-xl-end">
+                                        <p class="text-left d-xl-flex justify-content-center align-items-center justify-content-xl-start align-items-xl-start mb-5">Language: Java 8<br>Libraries: JavaFX&nbsp;<br>Created: 2021</p>
+                                    </div>
+                                </div>
                             </div>
+                            <div class="col-lg-8 mx-auto"><a class="btn btn-outline-light btn-xl" role="button" href="https://github.com/Lord-Chronos"><i class="fa fa-download mr-2"></i><span>Currently Unavailable</span></a></div>
                         </div>
                     </div>
                 </div>
-                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" data-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
+                <div class="modal-footer pb-5" style="background: #2c2f33;"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" data-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
             </div>
         </div>
     </div>
     <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-4">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
-                <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
-                <div class="modal-body">
+                <div class="modal-body" style="background: #2c2f33;">
                     <div class="container text-center">
                         <div class="row">
                             <div class="col-lg-8 mx-auto">
                                 <h2 class="text-uppercase text-secondary mb-0">Project Name</h2>
-                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/portfolio/game.png">
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/portfolio/hash.png">
+                                <p class="mb-5">I took part in the 2021 Google Hash Code competition with my my team coming 9th in our hub and 146th in the UK<br></p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" data-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
+                <div class="modal-footer pb-5" style="background: #2c2f33;"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" data-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
             </div>
         </div>
     </div>
