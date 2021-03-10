@@ -142,3 +142,9 @@ a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-prima
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+.portfolio-item-caption.position-absolute {
+  transition: all .5s ease;
+  opacity: 0;
+  background-color: rgba(126,24,188,0.9);
+}
+
